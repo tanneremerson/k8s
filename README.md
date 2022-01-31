@@ -40,7 +40,7 @@ installed this with brew). We are going to use this opportunity to install
 nginx.
 
 ```sh
-argcod app create nginx --repo https://github.com/tanneremerson/k8s --path base/nginx --dest-server https://kubernetes.default.svc --dest-namespace default
+argcod app create {APP} --repo https://github.com/tanneremerson/k8s --path base/{APP} --dest-server https://kubernetes.default.svc
 
 # How do we update the manifest so that we don't need this step
 # Convert the argocd-server to type loadbalancer
